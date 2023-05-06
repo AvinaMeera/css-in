@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.man-width{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+    align-items: left;
+    padding-left: 8px 100px;
+}
+.man-width h1{
+    color: rgb(123, 45, 45);
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0px 20px;
+
+}
+span{
+    color: darkmagenta;
+}
+.hero
+{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(laptop-human-hands-keyboard-typing-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .inch{
+    width: 35px;
+    height: 24px;
+    right: 3%;
+    top: 60px;
+    z-index: 5;
+    background: white;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+nav .inch span{
+    display: block;
+    background: #2ecc71;
+    width: 100%;
+    height: 3px;
+    transition: .3s;
+    transition-property: transform,opacity;
+}
+nav .inch span:nth-child(2){
+    margin: 7px 0px;
+}
+nav .nav-list{
+    list-style: none;
+}
+nav .nav-list li{
+    display: inline-block;
+}
+nav .nav-list li a{
+    display: inline-block;
+    color: #eee;
+    margin-left: 55px;
+    font-size: 15px;
+    font-weight: 600;
+}
+nav .nav-list li:not(:last-child) a:hover{
+    color: #2ecc71;
+    transition: .4s;
+}
+.container{
+    padding-top: 190px;
+}
+.container .info{
+    margin-bottom: 40px;
+}
+.container .info h1{
+    color: white;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0px 20px;
+}
+span{
+    color: cadetblue;
+}
+.container .info h3{
+    color: #eee;
+    font-weight: 400;
+    font-size: 17px;
+}
+.container .info p{
+    width: 440px;
+    max-width: 100%;
+    color: #eee;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: darkgoldenrod;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255, 0.1);
+    margin-bottom: 35px;
+}
+.social a:hover{
+    transform: scale(1.1);
+    background: turquoise;
+}
+.container .info button{
+    color: #eee;
+    background: #7b8f83;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 30px;
+    border: 2px solid #7b8f83;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.container .info button:hover{
+    background: transparent;
+    border: 2px solid #7b8f83;
+    color: #7b8f83;
+    transition: .4s;
+}
+.bottom{
+    margin-top: 243px;
+    padding-bottom: 40px;
+    color: #7b8f83;
+}
+.bottom p{
+    color: #7b8f83;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
